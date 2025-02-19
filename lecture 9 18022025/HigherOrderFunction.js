@@ -155,11 +155,12 @@
 // ------------------x-------------x-----------------x----------------x----------------
 const users=[
     {firstName:"pritush",lastName:"ray",age:25},
-    {firstName:"Jane",lastName:"jane",age:22},
-    {firstName:"John",lastName:"john",age:20},
-    {firstName:"Jane",lastName:"jane",age:28},
-    {firstName:"John",lastName:"john",age:40},
+    {firstName:"ayush",lastName:"jane",age:22},
+    {firstName:"Harshit",lastName:"john",age:22},
+    {firstName:"ritish",lastName:"jane",age:22},
+    {firstName:"Chapta",lastName:"john",age:26},
 ]
+
 // let combine first and last name
 const fullname=users.map((num)=>{
      return num.firstName+" "+num.lastName;
